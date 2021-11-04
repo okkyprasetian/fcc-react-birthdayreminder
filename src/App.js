@@ -51,7 +51,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="app">
       <div id="main">
         <Header length={lists.length} />
         <Lists lists={lists} />
