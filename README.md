@@ -1,12 +1,2 @@
-bagaimana mengorganisasikan githubku?
-
-repository: react project
-
-Readme di repository ini:
-This repository is about my react practice project
-
-Project from freecodecamp:
--blabla
-
-Personal random project:
--bla bla
+This project is part from react course in freecodecamp, the course is about creating 15 react project
+course ling: https://www.youtube.com/watch?v=a_7Z7C_JCyo
