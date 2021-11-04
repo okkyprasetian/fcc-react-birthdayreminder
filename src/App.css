@@ -70,4 +70,15 @@ footer {
 footer button {
     height: 100%;
     width: 100%;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #ed7966;
+}
+
+@media screen and (max-width: 768px) {
+    .app {
+        width: 80%;
+    }
 }
