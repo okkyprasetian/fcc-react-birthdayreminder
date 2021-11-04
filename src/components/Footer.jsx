@@ -1,9 +1,9 @@
 import Button from "./Button"
 
-function Footer() {
+function Footer({ onClearLists }) {
     return (
         <footer>
-            <Button />
+            <Button onClearLists={onClearLists} />
         </footer>
     );
 }

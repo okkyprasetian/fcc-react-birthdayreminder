@@ -1,7 +1,7 @@
-function Header() {
+function Header({ length }) {
     return (
         <header>
-            <h1>Birthday Reminder</h1>
+            <h1>{length} Birthday Reminder</h1>
         </header>
     );
 }

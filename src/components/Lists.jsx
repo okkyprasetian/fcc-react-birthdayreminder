@@ -1,10 +1,10 @@
 import List from "./List"
 
-function Lists() {
+function Lists({ lists }) {
     return (
-        <main>
-            <List />
-        </main>
+        <div className="lists">
+            {lists !== [] && lists.map(list => (<List key={list.id} list={list} />))}
+        </div>
     );
 }
 
